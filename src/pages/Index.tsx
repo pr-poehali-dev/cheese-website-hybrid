@@ -1,14 +1,60 @@
-// Update this page (the content is just a fallback if you fail to update the page)
-
-const Index = () => {
+export default function Index() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
+    <div className="min-h-screen bg-[#f4f0e8] relative overflow-hidden">
+      <div 
+        className="absolute inset-0 opacity-30"
+        style={{
+          backgroundImage: 'url(https://cdn.poehali.dev/projects/75aaffd8-7d3b-4958-b095-4f0782194b87/bucket/57e5fe32-06b6-4f6e-b331-cd3e49b8ac2f.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      />
+      
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 py-20">
+        <div className="max-w-4xl w-full text-center space-y-8">
+          <div className="space-y-4">
+            <p className="text-sm uppercase tracking-widest text-[#4a5240] font-sans">
+              Итальянская сыроварня
+            </p>
+            
+            <div className="relative inline-block">
+              <div className="absolute -inset-8 opacity-20">
+                <svg viewBox="0 0 400 300" className="w-full h-full">
+                  <ellipse cx="200" cy="150" rx="180" ry="120" fill="none" stroke="#4a5240" strokeWidth="1.5"/>
+                  <path d="M 50 150 Q 80 80, 120 100 T 180 90" stroke="#4a5240" strokeWidth="1" fill="none" opacity="0.4"/>
+                  <path d="M 350 150 Q 320 220, 280 200 T 220 210" stroke="#4a5240" strokeWidth="1" fill="none" opacity="0.4"/>
+                  <circle cx="200" cy="60" r="3" fill="#4a5240" opacity="0.3"/>
+                  <circle cx="100" cy="140" r="2" fill="#4a5240" opacity="0.3"/>
+                  <circle cx="300" cy="160" r="2" fill="#4a5240" opacity="0.3"/>
+                </svg>
+              </div>
+              
+              <div className="relative bg-[#f4f0e8]/90 border-2 border-[#4a5240] rounded-full px-16 py-12">
+                <h1 className="font-cormorant italic text-7xl md:text-8xl text-[#2d3428] mb-2">
+                  Latteria
+                </h1>
+                <p className="font-sans text-sm tracking-wider text-[#4a5240]">
+                  1963
+                </p>
+              </div>
+            </div>
+            
+            <div className="pt-4">
+              <p className="font-cormorant italic text-3xl md:text-4xl text-[#4a5240]">
+                Sapere Italiano
+              </p>
+              <div className="flex items-center justify-center gap-2 mt-2">
+                <div className="h-px w-12 bg-[#6b7d5c]"/>
+                <div className="h-px w-16 bg-[#a8875f]"/>
+                <div className="h-px w-12 bg-[#c84b4b]"/>
+              </div>
+              <p className="font-sans text-sm mt-2 tracking-wide text-[#4a5240]">
+                Итальянский аромат
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
-};
-
-export default Index;
+}
