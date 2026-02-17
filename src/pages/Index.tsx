@@ -13,12 +13,11 @@ export default function Index() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/50" />
       
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen p-5">
-        <div className="w-full text-center space-y-8">
-          <div className="inline-block relative">
+        <div className="w-full flex flex-col items-center space-y-12">
+          <div className="relative w-full max-w-2xl aspect-[3/2] flex items-center justify-center">
             <svg 
               className="absolute inset-0 w-full h-full" 
               viewBox="0 0 600 400"
-              style={{ transform: 'scale(1.4)' }}
             >
               <ellipse 
                 cx="300" 
@@ -27,8 +26,8 @@ export default function Index() {
                 ry="180" 
                 fill="none" 
                 stroke="#009246" 
-                strokeWidth="3"
-                opacity="0.7"
+                strokeWidth="2.5"
+                opacity="0.8"
               />
               <ellipse 
                 cx="300" 
@@ -37,8 +36,8 @@ export default function Index() {
                 ry="186" 
                 fill="none" 
                 stroke="#ffffff" 
-                strokeWidth="3"
-                opacity="0.8"
+                strokeWidth="2.5"
+                opacity="0.9"
               />
               <ellipse 
                 cx="300" 
@@ -47,21 +46,30 @@ export default function Index() {
                 ry="192" 
                 fill="none" 
                 stroke="#CE2B37" 
-                strokeWidth="3"
-                opacity="0.7"
+                strokeWidth="2.5"
+                opacity="0.8"
               />
+              
+              <defs>
+                <path 
+                  id="topCurve" 
+                  d="M 60 200 A 240 156 0 0 1 540 200" 
+                />
+              </defs>
+              
+              <text className="font-aver" fill="white" opacity="0.95" fontSize="16" letterSpacing="2">
+                <textPath href="#topCurve" startOffset="50%" textAnchor="middle">
+                  итальянская сыроварня
+                </textPath>
+              </text>
             </svg>
 
-            <div className="relative space-y-2 px-8 py-12">
-              <p className="font-aver text-sm sm:text-base md:text-lg text-white/90 tracking-wide drop-shadow-lg">
-                итальянская сыроварня
-              </p>
-              
-              <h1 className="font-abilya text-7xl sm:text-8xl md:text-9xl lg:text-[10rem] text-white drop-shadow-2xl tracking-wide">
+            <div className="relative text-center z-10">
+              <h1 className="font-abilya text-8xl sm:text-9xl lg:text-[11rem] text-white drop-shadow-2xl leading-none">
                 Latteria
               </h1>
               
-              <p className="font-anisha text-2xl sm:text-3xl md:text-4xl text-white/95 tracking-[0.2em] drop-shadow-lg font-light italic">
+              <p className="font-anisha text-3xl sm:text-4xl md:text-5xl text-white/95 tracking-[0.2em] drop-shadow-lg font-light italic mt-2">
                 1963
               </p>
             </div>
