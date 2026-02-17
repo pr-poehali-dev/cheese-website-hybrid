@@ -21,6 +21,7 @@ export default {
 			fontFamily: {
 				cormorant: ['Cormorant', 'serif'],
 				sans: ['Open Sans', 'sans-serif'],
+				pacifico: ['Pacifico', 'cursive'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
