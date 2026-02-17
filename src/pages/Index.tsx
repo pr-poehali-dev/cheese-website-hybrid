@@ -25,9 +25,9 @@ export default function Index() {
                 rx="320" 
                 ry="190" 
                 fill="none" 
-                stroke="#009246" 
+                stroke="#8B9474" 
                 strokeWidth="2.5"
-                opacity="0.8"
+                opacity="0.7"
               />
               <ellipse 
                 cx="350" 
@@ -35,9 +35,9 @@ export default function Index() {
                 rx="330" 
                 ry="196" 
                 fill="none" 
-                stroke="#ffffff" 
+                stroke="#D4C5B0" 
                 strokeWidth="2.5"
-                opacity="0.9"
+                opacity="0.75"
               />
               <ellipse 
                 cx="350" 
@@ -45,9 +45,9 @@ export default function Index() {
                 rx="340" 
                 ry="202" 
                 fill="none" 
-                stroke="#CE2B37" 
+                stroke="#A89080" 
                 strokeWidth="2.5"
-                opacity="0.8"
+                opacity="0.7"
               />
               
               <circle cx="90" cy="210" r="4" fill="white" opacity="0.8"/>
