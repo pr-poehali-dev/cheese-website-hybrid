@@ -18,7 +18,7 @@ export default function Index() {
             <svg 
               className="absolute inset-0 w-full h-full" 
               viewBox="0 0 600 400"
-              style={{ transform: 'scale(1.15)' }}
+              style={{ transform: 'scale(1.4)' }}
             >
               <ellipse 
                 cx="300" 
@@ -60,18 +60,6 @@ export default function Index() {
               <p className="font-sans text-3xl sm:text-4xl md:text-5xl text-white/95 tracking-[0.3em] drop-shadow-lg font-light">
                 1963
               </p>
-            </div>
-          </div>
-
-          <div className="pt-8 space-y-4">
-            <p className="font-pacifico text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white drop-shadow-xl">
-              Sapore Italiano
-            </p>
-            
-            <div className="flex items-center justify-center gap-2 pt-2">
-              <div className="h-0.5 w-12 sm:w-16 bg-[#009246] shadow-lg"/>
-              <div className="h-0.5 w-16 sm:w-20 bg-white shadow-lg"/>
-              <div className="h-0.5 w-12 sm:w-16 bg-[#CE2B37] shadow-lg"/>
             </div>
           </div>
 
