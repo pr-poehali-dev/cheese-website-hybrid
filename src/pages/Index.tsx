@@ -12,6 +12,8 @@ export default function Index() {
       
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/35 to-black/55" />
       
+      <div className="absolute inset-0 backdrop-blur-[2px]" />
+      
       <div className="relative z-10 flex items-center justify-center min-h-screen p-5">
         <div className="w-full max-w-5xl flex flex-col items-center space-y-8">
           <div className="relative w-full max-w-3xl aspect-[5/3] flex items-center justify-center">
