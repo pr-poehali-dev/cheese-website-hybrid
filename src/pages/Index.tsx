@@ -86,10 +86,10 @@ export default function Index() {
 
           <div className="pt-4">
             <button 
-              className="relative text-white font-aver text-base sm:text-lg px-16 sm:px-20 py-3 sm:py-3.5 shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl overflow-hidden"
+              className="relative text-white font-aver text-base sm:text-lg px-16 sm:px-20 py-5 sm:py-6 shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl overflow-hidden"
               style={{
-                borderRadius: '50%/40%',
-                background: 'linear-gradient(90deg, rgba(139, 180, 139, 0.85) 0%, rgba(220, 220, 210, 0.85) 50%, rgba(200, 130, 130, 0.85) 100%)',
+                borderRadius: '100px/50px',
+                background: 'linear-gradient(90deg, rgba(0, 146, 70, 0.75) 0%, rgba(255, 255, 255, 0.75) 50%, rgba(206, 43, 55, 0.75) 100%)',
               }}
             >
               <span className="relative z-10">Попробовать наши сыры</span>
