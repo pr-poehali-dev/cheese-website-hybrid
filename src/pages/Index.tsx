@@ -1,14 +1,28 @@
 export default function Index() {
   return (
     <div className="min-h-screen bg-[#f4f0e8] relative overflow-hidden">
-      <div 
-        className="absolute inset-0 opacity-30"
-        style={{
-          backgroundImage: 'url(https://cdn.poehali.dev/projects/75aaffd8-7d3b-4958-b095-4f0782194b87/bucket/57e5fe32-06b6-4f6e-b331-cd3e49b8ac2f.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      />
+      <div className="absolute top-20 left-10 opacity-10">
+        <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+          <path d="M60 10 L50 40 Q45 60 60 70 Q75 60 70 40 Z" fill="#4a5240"/>
+          <ellipse cx="60" cy="85" rx="25" ry="8" fill="#4a5240"/>
+        </svg>
+      </div>
+      
+      <div className="absolute bottom-32 right-20 opacity-10">
+        <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+          <circle cx="50" cy="50" r="40" fill="none" stroke="#4a5240" strokeWidth="2"/>
+          <path d="M 30 50 Q 50 30 70 50 Q 50 70 30 50" fill="#4a5240"/>
+        </svg>
+      </div>
+
+      <div className="absolute top-1/2 left-5 opacity-5">
+        <svg width="80" height="150" viewBox="0 0 80 150" fill="none">
+          <path d="M40 10 Q35 30 40 50 Q45 70 40 90 Q35 110 40 130" stroke="#4a5240" strokeWidth="2" fill="none"/>
+          <circle cx="20" cy="40" r="3" fill="#4a5240"/>
+          <circle cx="60" cy="80" r="3" fill="#4a5240"/>
+          <path d="M 25 60 L 15 65 L 25 70" fill="none" stroke="#4a5240" strokeWidth="1"/>
+        </svg>
+      </div>
       
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 py-20">
         <div className="max-w-4xl w-full text-center space-y-8">
