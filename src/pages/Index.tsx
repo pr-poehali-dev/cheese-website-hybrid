@@ -52,25 +52,29 @@ export default function Index() {
               />
             </svg>
 
-            <div className="relative space-y-4 px-8 py-12">
-              <h1 className="font-cormorant italic text-7xl sm:text-8xl md:text-9xl lg:text-[12rem] text-white drop-shadow-2xl font-light tracking-wide">
+            <div className="relative space-y-2 px-8 py-12">
+              <p className="font-aver text-sm sm:text-base md:text-lg text-white/90 tracking-wide drop-shadow-lg">
+                итальянская сыроварня
+              </p>
+              
+              <h1 className="font-abilya text-7xl sm:text-8xl md:text-9xl lg:text-[10rem] text-white drop-shadow-2xl tracking-wide">
                 Latteria
               </h1>
               
-              <p className="font-sans text-3xl sm:text-4xl md:text-5xl text-white/95 tracking-[0.3em] drop-shadow-lg font-light">
+              <p className="font-anisha text-2xl sm:text-3xl md:text-4xl text-white/95 tracking-[0.2em] drop-shadow-lg font-light italic">
                 1963
               </p>
             </div>
           </div>
 
           <div className="pt-12">
-            <p className="font-sans text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed drop-shadow-lg font-light px-4">
+            <p className="font-aver text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed drop-shadow-lg px-4">
               Настоящий вкус Италии в каждом кусочке. Созревшие под солнцем Тосканы, наши сыры хранят семейные традиции мастеров-сыроваров.
             </p>
           </div>
 
           <div className="pt-8">
-            <button className="bg-[#8B9474] hover:bg-[#757F61] text-white font-sans text-base sm:text-lg px-10 sm:px-12 py-3 sm:py-4 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(139,148,116,0.5)]">
+            <button className="bg-[#8B9474] hover:bg-[#757F61] text-white font-aver text-base sm:text-lg px-10 sm:px-12 py-3 sm:py-4 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(139,148,116,0.5)]">
               Попробовать наши сыры
             </button>
           </div>

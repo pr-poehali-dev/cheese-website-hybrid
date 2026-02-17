@@ -19,9 +19,9 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				cormorant: ['Cormorant', 'serif'],
-				sans: ['Open Sans', 'sans-serif'],
-				pacifico: ['Pacifico', 'cursive'],
+				aver: ['Lora', 'serif'],
+				abilya: ['Great Vibes', 'cursive'],
+				anisha: ['Cormorant', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
