@@ -14,18 +14,57 @@ export default function Index() {
       
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen p-5">
         <div className="w-full text-center space-y-8">
-          <div className="space-y-4">
-            <h1 className="font-cormorant italic text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-white drop-shadow-2xl font-light tracking-wide">
-              Latteria
-            </h1>
-            
-            <p className="font-sans text-2xl sm:text-3xl md:text-4xl text-white/95 tracking-[0.3em] drop-shadow-lg font-light">
-              1963
-            </p>
+          <div className="inline-block relative">
+            <svg 
+              className="absolute inset-0 w-full h-full" 
+              viewBox="0 0 600 400"
+              style={{ transform: 'scale(1.15)' }}
+            >
+              <ellipse 
+                cx="300" 
+                cy="200" 
+                rx="280" 
+                ry="180" 
+                fill="none" 
+                stroke="#009246" 
+                strokeWidth="3"
+                opacity="0.7"
+              />
+              <ellipse 
+                cx="300" 
+                cy="200" 
+                rx="290" 
+                ry="186" 
+                fill="none" 
+                stroke="#ffffff" 
+                strokeWidth="3"
+                opacity="0.8"
+              />
+              <ellipse 
+                cx="300" 
+                cy="200" 
+                rx="300" 
+                ry="192" 
+                fill="none" 
+                stroke="#CE2B37" 
+                strokeWidth="3"
+                opacity="0.7"
+              />
+            </svg>
+
+            <div className="relative space-y-4 px-8 py-12">
+              <h1 className="font-cormorant italic text-7xl sm:text-8xl md:text-9xl lg:text-[12rem] text-white drop-shadow-2xl font-light tracking-wide">
+                Latteria
+              </h1>
+              
+              <p className="font-sans text-3xl sm:text-4xl md:text-5xl text-white/95 tracking-[0.3em] drop-shadow-lg font-light">
+                1963
+              </p>
+            </div>
           </div>
 
-          <div className="pt-4 space-y-4">
-            <p className="font-pacifico text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white drop-shadow-xl">
+          <div className="pt-8 space-y-4">
+            <p className="font-pacifico text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white drop-shadow-xl">
               Sapore Italiano
             </p>
             
@@ -43,7 +82,7 @@ export default function Index() {
           </div>
 
           <div className="pt-8">
-            <button className="bg-[#009246] hover:bg-[#007A38] text-white font-sans text-base sm:text-lg px-10 sm:px-12 py-3 sm:py-4 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(0,146,70,0.5)]">
+            <button className="bg-[#8B9474] hover:bg-[#757F61] text-white font-sans text-base sm:text-lg px-10 sm:px-12 py-3 sm:py-4 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(139,148,116,0.5)]">
               Попробовать наши сыры
             </button>
           </div>
