@@ -10,7 +10,7 @@ export default function Index() {
         }}
       />
       
-      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/50" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/35 to-black/55" />
       
       <div className="relative z-10 flex items-center justify-center min-h-screen p-5">
         <div className="w-full max-w-5xl flex flex-col items-center space-y-8">
