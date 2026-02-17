@@ -87,7 +87,7 @@ export default function Index() {
           <div className="pt-8 flex flex-col items-center space-y-3">
             <div className="flex items-center gap-4">
               <div className="h-px w-20 sm:w-32 bg-white/60"/>
-              <h2 className="font-pacifico text-3xl sm:text-4xl md:text-5xl text-white drop-shadow-xl">
+              <h2 className="font-abilya text-4xl sm:text-5xl md:text-6xl text-white drop-shadow-xl">
                 Sapore Italiano
               </h2>
               <div className="h-px w-20 sm:w-32 bg-white/60"/>
