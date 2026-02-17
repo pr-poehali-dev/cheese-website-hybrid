@@ -84,16 +84,24 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="pt-4">
-            <button 
-              className="relative text-white font-aver text-base sm:text-lg px-16 sm:px-20 py-5 sm:py-6 shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl backdrop-blur-sm"
-              style={{
-                borderRadius: '100px/50px',
-                background: 'rgba(159, 168, 140, 0.8)',
-              }}
-            >
-              <span className="relative z-10">Попробовать наши сыры</span>
-            </button>
+          <div className="pt-8 flex flex-col items-center space-y-3">
+            <div className="flex items-center gap-4">
+              <div className="h-px w-20 sm:w-32 bg-white/60"/>
+              <h2 className="font-pacifico text-3xl sm:text-4xl md:text-5xl text-white drop-shadow-xl">
+                Sapore Italiano
+              </h2>
+              <div className="h-px w-20 sm:w-32 bg-white/60"/>
+            </div>
+            
+            <p className="font-aver text-sm sm:text-base text-white/85 drop-shadow-lg tracking-wide">
+              Итальянский аромат
+            </p>
+            
+            <div className="flex items-center gap-3 pt-1">
+              <div className="h-1 w-16 sm:w-20 bg-[#009246]/80 rounded-full"/>
+              <div className="h-1 w-20 sm:w-24 bg-white/80 rounded-full"/>
+              <div className="h-1 w-16 sm:w-20 bg-[#CE2B37]/80 rounded-full"/>
+            </div>
           </div>
         </div>
       </div>
